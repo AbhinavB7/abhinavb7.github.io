@@ -11356,7 +11356,7 @@ p {
   }
   .pricing-card {
     border-radius: 0 !important;
-    margin: 0 0 15px 0 !important;
+    margin: 0 0 5px 0 !important;
     width: 100%;
   }
 }
