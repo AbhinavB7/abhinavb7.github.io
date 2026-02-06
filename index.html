@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Abhinav Bhamidipati Portfolio</title>
+  <title>Abhinav Bhamidipati — Robotics Engineer</title>
   <meta content="Robotics Engineer specializing in perception, reinforcement learning, and autonomous systems" name="description">
   <meta content="Abhinav Bhamidipati, Robotics, Machine Learning, Perception, SLAM, Reinforcement Learning, Autonomous Systems, ROS, Computer Vision" name="keywords">
 
@@ -12,486 +12,543 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Fonts - Premium Typography -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Distant Stroke Font (Local) -->
+  <style>
+    @font-face {
+      font-family: 'Distant Stroke';
+      src: url('https://fonts.cdnfonts.com/s/15702/Distant%20Stroke.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
 
+  <!-- Minimal Side Navigation -->
   <header id="header" class="header d-flex flex-column justify-content-center">
+    <button class="header-toggle d-xl-none" aria-label="Toggle navigation">
+      <span class="toggle-line"></span>
+      <span class="toggle-line"></span>
+      <span class="toggle-line"></span>
+    </button>
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
+    <nav id="navmenu" class="navmenu" aria-label="Main navigation">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#Experience"><i class="bi bi-images navicon"></i><span>Experience</span></a></li>
-        <li><a href="#projects"><i class="bi bi-hdd-stack navicon"></i><span>Projects</span></a></li>
-        <li><a href="#extra"><i class="bi bi-file-earmark-text navicon"></i><span>Extra-Curricular</span></a></li>
+        <li><a href="#hero" class="active"><span class="nav-indicator"></span><span class="nav-text">Home</span></a></li>
+        <li><a href="#about"><span class="nav-indicator"></span><span class="nav-text">About</span></a></li>
+        <li><a href="#experience"><span class="nav-indicator"></span><span class="nav-text">Experience</span></a></li>
+        <li><a href="#projects"><span class="nav-indicator"></span><span class="nav-text">Projects</span></a></li>
+        <li><a href="#extra"><span class="nav-indicator"></span><span class="nav-text">Creative</span></a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+    <section id="hero" class="hero section">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/img/robo-bg.png" alt="">
+      </div>
 
-      <img src="assets/img/robo-bg.png" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Abhinav Bhamidipati</h2>
-            <p>I'm <span class="typed" data-typed-items="a Robotics Engineer, a Graduate Student"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <h5>Perception, Path Planning, Computer Vision, Machine Learning</h5>
-            <div class="social-links">
-              <a href="https://drive.google.com/file/d/1KdamvR1NlaGQF2MogBzxWnkk-ld5JgQw/view?usp=sharing" class="bi-journal-richtext">RESUME</a>
-              <a href="#projects" class="bi-journal-richtext">PROJECTS</a>
-              <a href="https://github.com/AbhinavB7"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/abhinav-bhamidipati/"><i class="bi bi-linkedin"></i></a>
-            </div>
+      <div class="container">
+        <div class="hero-content reveal-element">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Abhinav Bhamidipati</h1>
+          <div class="hero-title">
+            <span class="typed" data-typed-items="Founding Robotics Software Engineer"></span>
+          </div>
+          <p class="hero-tagline">Perception · Path Planning · Computer Vision · Machine Learning</p>
+          
+          <div class="hero-cta">
+            <a href="https://drive.google.com/file/d/1KdamvR1NlaGQF2MogBzxWnkk-ld5JgQw/view?usp=sharing" class="btn-minimal btn-primary-minimal" target="_blank" rel="noopener">
+              <span>Resume</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="#projects" class="btn-minimal btn-secondary-minimal">
+              <span>View Work</span>
+              <i class="bi bi-arrow-down"></i>
+            </a>
+          </div>
+          
+          <div class="hero-social">
+            <a href="https://github.com/AbhinavB7" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abhinav-bhamidipati/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:abhinav7@terpmail.umd.edu" aria-label="Email">
+              <i class="bi bi-envelope"></i>
+            </a>
           </div>
         </div>
       </div>
 
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
+      <div class="container">
+        <header class="section-header reveal-element">
+          <span class="section-subtitle">Introduction</span>
+          <h2 class="section-title">About</h2>
+        </header>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-3">
-            <img src="assets/img/dp.png" class="img-fluid" alt="">
+        <div class="about-grid">
+          <div class="about-image reveal-element">
+            <div class="image-frame">
+              <img src="assets/img/dp.png" alt="Abhinav Bhamidipati">
+            </div>
           </div>
-          <div class="col-lg-8 content">
-
-            <p class="py-4">
-              My name is Abhinav Bhamidipati, 23-year-old pursuing Master's Degree in Robotics at the University of Maryland, College Park. 
-              
-              I'm currently working at Inception Robotics contributing to develop autonomy stacks and enhancing robot capabilities through visual odometry and sensor fusion techniques.
-
-              <br>My passion lies in the fields of Computer Vision and Machine Learning, and I have experience in areas such as Perception, Path Planning, SLAM, and Reinforcement Learning. My strong analytical thinking and problem-solving abilities enable me to navigate complex technical issues effectively.
-              I've led teams in pioneering projects that have made a positive impact. I'm a lifelong learner who thrives in dynamic environments and embraces new challenges with enthusiasm. 
-
-              <br>Beyond engineering, I'm creative, indulging in sketching and painting. I'm driven by innovation, eager to collaborate, and excited to make meaningful contributions to the world of robotics and beyond. 
+          
+          <div class="about-content reveal-element">
+            <p class="about-text">
+              My name is <strong>Abhinav Bhamidipati</strong>, working at <em>Inception Robotics</em>, I contribute to developing autonomy stacks and enhancing robot capabilities through visual odometry and sensor fusion techniques. My passion lies in Computer Vision and Machine Learning, with experience in Perception, Path Planning, SLAM, and Reinforcement Learning.
+            </p>
+            <p class="about-text">
+              Beyond engineering, I'm creative; indulging in sketching and painting. I'm driven by innovation, eager to collaborate, and excited to make meaningful contributions to robotics and beyond.
             </p>
 
-            <section id="education" class="resume section" >
-
-              <div class="container" >
-        
-                <div class="row" >
-        
-                  <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100" >
-        
-                    <h3 class="resume-title" >Education</h3>
-                    <div class="resume-item">
-                      <h4>Master of Engineering, Robotics</h4>
-                      <h5>Aug 2023 - May 2025</h5>
-                      <p><em>University of Maryland, College Park, MD</em></p>
-                      <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
-                       <p>CGPA : 3.84/4</p>
-                    </div><!-- Edn Resume Item -->
-        
-                    <div class="resume-item">
-                      <h4>Bachelor of Engineering, Electronics and Telecommunication</h4>
-                      <h5>Aug 2019 - May 2023</h5>
-                      <p><em>University of Mumbai, Atharva College of Engineering, Mumbai, India</em></p>
-                      <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
-                      <p>CGPA : 8.97/10</p>
-                    </div><!-- Edn Resume Item -->
-        
-                  </div>
-        
-                  </div>
-        
+            <!-- Education -->
+            <div class="education-block">
+              <h3 class="subsection-title">Education</h3>
+              
+              <article class="education-item">
+                <div class="education-meta">
+                  <span class="education-date">Aug 2023 — May 2025</span>
                 </div>
-        
-              </div>
-        
-            </section>
+                <h4 class="education-degree">Master of Engineering, Robotics</h4>
+                <p class="education-school">University of Maryland, College Park, MD</p>
+                <p class="education-gpa">CGPA: 3.84 / 4.0</p>
+              </article>
+
+              <article class="education-item">
+                <div class="education-meta">
+                  <span class="education-date">Aug 2019 — May 2023</span>
+                </div>
+                <h4 class="education-degree">Bachelor of Engineering, Electronics & Telecommunication</h4>
+                <p class="education-school">University of Mumbai, Atharva College of Engineering</p>
+                <p class="education-gpa">CGPA: 8.97 / 10.0</p>
+              </article>
+            </div>
           </div>
         </div>
       </div>
-
     </section><!-- /About Section -->
 
-  
-    <!-- Resume Section -->
-    <section id="Experience" class="resume section">
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+      <div class="container">
+        <header class="section-header reveal-element">
+          <span class="section-subtitle">Career</span>
+          <h2 class="section-title">Experience</h2>
+        </header>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Experience</h2>
-        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-      </div><!-- End Section Title -->
-
-      <div class="container" style="display: flex; justify-content: center;">
-
-        <div class="row" style="display: flex; justify-content: center;">
-
-          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200" >
-            <!-- <h3 class="resume-title">Professional Experience</h3> -->
-            <div class="resume-item">
-              <h4>
-                <b>Robotics Software Engineer</b>
-                <span style="margin-left: 30px;">Inception Robotics, College Park</span>
-              </h4>
-              <h5>Sept 2024 - Present</h5>
-              <ul>
-                <li>Designed and deployed full‑stack autonomy pipelines for Autonomous UGVs using C++, Python, ROS2, and CUDA in Unity and Isaac Sim simulations and real‑world testing; integrated LiDAR and visual odometry modules with 3D ICP scan matching and ORB feature tracking, enhancing localization robustness through adaptive outlier filtering.</li>
-                <li>Built and scaled reinforcement learning–based terrain navigation models, importing environment from AWS and automating end‑to‑end CI/CD pipelines with Docker, and GitLab, achieving 90% navigation success across dynamic terrains.</li>
-                <li>Extended the autonomy stack with a DWA‑based local planner and an LLM‑powered natural language interface, leveraging SITL pipelines for multi‑run validation, enabling real‑time dynamic obstacle avoidance and voice‑commanded mission execution.</li>
-                <li>Developed a CLIP‑based vision‑model for final‑stage object damage assessment, capturing multi‑angle imagery of assigned objects & evaluating condition against predefined guidelines to detect surface deformation, cracks, & structural anomalies.</li>
+        <div class="timeline">
+          <article class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Founding Robotics Software Engineer</h3>
+                <span class="timeline-company">Inception Robotics, College Park</span>
+              </div>
+              <time class="timeline-date">Feb 2026 — Present</time>
+              <ul class="timeline-details">
+                <li>Leading development of next-generation autonomy systems and establishing core robotics infrastructure.</li>
               </ul>
-            </div><!-- Edn Resume Item -->
 
-            <div class="resume-item">
-              <h4>
-                <b>Computer Vision & SLAM Engineer</b>
-                <span style="margin-left: 30px;">Onki Robotics, New York City</span>
-              </h4>
-              <h5>Jun 2024 - Aug 2024</h5>
-              <ul>
-                <li>Optimized SLAM and localization pipelines for UGVs on Jetson platforms using ROS2, reducing pose update latency by 25% to enable real‑time tracking and navigation in dynamic, crowded environments.</li>
-                <li>Enhanced environmental perception, with sensor‑fusion of LiDAR and stereo camera data, generating denser occupancy maps and improving robustness to occlusions and cluttered scenes for consistent person‑following behavior.</li>
-                <li>Developed ML‑based human feature extraction and tracking models, enabling the UGV to detect, lock onto, and continuously follow a selected individual through crowds, maintaining robust identity tracking across partial occlusions and reappearances.</li>
+              <div class="timeline-header" style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--color-border);">
+                <h3 class="timeline-title">Robotics Software Engineer</h3>
+              </div>
+              <time class="timeline-date">Sept 2024 — Jan 2026</time>
+              <ul class="timeline-details">
+                <li>Designed full-stack autonomy pipelines for Autonomous UGVs using C++, Python, ROS2, and CUDA in Unity and Isaac Sim simulations; integrated LiDAR and visual odometry modules with 3D ICP scan matching and ORB feature tracking.</li>
+                <li>Built and scaled reinforcement learning–based terrain navigation models, achieving 90% navigation success across dynamic terrains with automated CI/CD pipelines.</li>
+                <li>Extended autonomy stack with DWA-based local planner and LLM-powered natural language interface for voice-commanded mission execution.</li>
+                <li>Developed CLIP-based vision-model for object damage assessment, detecting surface deformation, cracks, and structural anomalies.</li>
               </ul>
-            </div><!-- Edn Resume Item -->
+            </div>
+          </article>
 
-            <div class="resume-item">
-              <h4>
-                <b>Research Assistant</b>
-                <span style="margin-left: 30px;">University of Maryland, College Park </span>
-              </h4>
-              <h5>Jan 2024 - May 2024</h5>
-              <ul>
-                <li>Integrated multi‑beam sonar and depth sensors in simulations for UUVs, enhancing decision‑making capabilities.</li>
-                <li>Improved environmental perception and navigation precision for UUVs through advanced sensor fusion techniques.</li>
+          <article class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Computer Vision & SLAM Engineer</h3>
+                <span class="timeline-company">Onki Robotics, New York City</span>
+              </div>
+              <time class="timeline-date">Jun 2024 — Aug 2024</time>
+              <ul class="timeline-details">
+                <li>Optimized SLAM and localization pipelines for UGVs on Jetson platforms using ROS2, reducing pose update latency by 25%.</li>
+                <li>Enhanced environmental perception with sensor-fusion of LiDAR and stereo camera data, generating denser occupancy maps.</li>
+                <li>Developed ML-based human feature extraction and tracking models for robust person-following through crowds.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Research Assistant</h3>
+                <span class="timeline-company">University of Maryland, College Park</span>
+              </div>
+              <time class="timeline-date">Jan 2024 — May 2024</time>
+              <ul class="timeline-details">
+                <li>Integrated multi-beam sonar and depth sensors in simulations for UUVs, enhancing decision-making capabilities.</li>
+                <li>Improved environmental perception and navigation precision through advanced sensor fusion techniques.</li>
                 <li>Developed control algorithms to optimize UUV path planning and maneuverability in complex underwater environments.</li>
               </ul>
             </div>
+          </article>
 
-            <div class="resume-item">
-              <h4>
-                <b>Research Assistant</b>
-                <span style="margin-left: 30px;">University of Toronto </span>
-              </h4>
-              <h5>Jun 2022 - Nov 2022</h5>
-              <ul>
-                <li>Performed in‑depth analysis of a large‑scale database with over 1 million patient records daily, uncovering critical trends.</li>
-                <li>Developed algorithms for data cleaning using Isolation Forest, and also created real‑time tracking dashboards.</li>
+          <article class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Research Assistant</h3>
+                <span class="timeline-company">University of Toronto</span>
+              </div>
+              <time class="timeline-date">Jun 2022 — Nov 2022</time>
+              <ul class="timeline-details">
+                <li>Performed in-depth analysis of a large-scale database with over 1 million patient records daily, uncovering critical trends.</li>
+                <li>Developed algorithms for data cleaning using Isolation Forest, and created real-time tracking dashboards.</li>
               </ul>
             </div>
+          </article>
 
-            <div class="resume-item">
-              <h4>
-                <b>Web Developer</b>
-                <span style="margin-left: 30px;">N. Thakkar & Associates </span>
-              </h4>
-              <h5>Aug 2021 - Sept 2021</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Optimized the throughput of a web application by 10% by using a load balancer and optimizing the code.</li>
-                <li>Created a user interface design for a website using wireframes and mockups.</li>
+          <article class="timeline-item reveal-element">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Web Developer</h3>
+                <span class="timeline-company">N. Thakkar & Associates</span>
+              </div>
+              <time class="timeline-date">Aug 2021 — Sept 2021</time>
+              <ul class="timeline-details">
+                <li>Optimized web application throughput by 10% using load balancer and code optimization.</li>
+                <li>Created user interface designs using wireframes and mockups.</li>
               </ul>
             </div>
-
-          </div>
-
+          </article>
         </div>
-
       </div>
+    </section><!-- /Experience Section -->
 
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="projects" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-      </div><!-- End Section Title -->
-
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
       <div class="container">
+        <header class="section-header reveal-element">
+          <span class="section-subtitle">Portfolio</span>
+          <h2 class="section-title">Projects</h2>
+        </header>
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-robo">Robots</li>
-            <li data-filter=".filter-perception">Perception</li>
-            <li data-filter=".filter-ml">Machine Learning</li>
-            <li data-filter=".filter-plan">Path Planning</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perception filter-ml">
-              <a href="https://github.com/AbhinavB7/Surface-Reconstruction-from-Noisy-Point-Clouds"> <img src="assets/img/masonry-portfolio/surface_bunny.png" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Surface Reconstruction from Noisy Point Clouds using DeepSDF</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Surface-Reconstruction-from-Noisy-Point-Clouds" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-ml filter-plan">
-              <a href="https://github.com/sriramprasadkothapalli/Search_and_Rescue_Drone_using_Reinforcement_Learning?tab=readme-ov-file"><img src="assets/img/masonry-portfolio/drone.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Search and Rescue Drone Simulation Using RL</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/sriramprasadkothapalli/Search_and_Rescue_Drone_using_Reinforcement_Learning?tab=readme-ov-file" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-perception" >
-              <a href="https://github.com/AbhinavB7/UGV-Surveillance-with-Coordinated-Behavior-Using-Behavior-Trees"> <img src="assets/img/masonry-portfolio/ugv-sur.gif" class="img-fluid" alt="" ></a>
-              <h5 style="text-align: center;">UGV Surveillance with Coordinated Behavior Using Behavior Trees</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/UGV-Surveillance-with-Coordinated-Behavior-Using-Behavior-Trees" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-ml filter-robo">
-              <a href="https://github.com/AbhinavB7/Real_time_Pallet_Detection_and_Ground_Segmentation"><img src="assets/img/masonry-portfolio/palet_detection.png" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Real-time Pallet Detection and Ground Segmentation</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Real_time_Pallet_Detection_and_Ground_Segmentation" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-plan">
-              <a href="https://github.com/AbhinavB7/Autonomous-Parking-System-Using-Model-Based-Decision-Making"><img src="assets/img/masonry-portfolio/imaginitive.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Imaginative Autonomous Parking System Using Model‑Based Decision Making</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Autonomous-Parking-System-Using-Model-Based-Decision-Making" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-ml">
-              <a href=""><img src="assets/img/masonry-portfolio/AAM.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Aerial‑Aquatic Manipulator in Sea, Air, and Land Simulator using SAC</h5>
-              <!-- <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-            
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perception filter-ml">
-              <a href="https://github.com/AbhinavB7/Real-Time-Semantic-Segmentation-of-Fire-using-Deep-Learning"><img src="assets/img/masonry-portfolio/fire-crop.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Real‑Time Fire Segmentation using Deep Learning</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Real-Time-Semantic-Segmentation-of-Fire-using-Deep-Learning" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-plan">
-              <a href="https://github.com/AbhinavB7/Path-Planning"><img src="assets/img/masonry-portfolio/a_star-gif.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Path planning and robot navigation for obstacle avoidance</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Path-Planning" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-perception">
-              <a href="https://github.com/AbhinavB7/RoboHarvest"><img src="assets/img/masonry-portfolio/roboharvest.png" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">RoboHarvest</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/RoboHarvest" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo filter-plan">
-              <a href=""><img src="assets/img/masonry-portfolio/gazebo_a_star.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Turtlebot A* in Gazebo</h5>
-              <!-- <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-plan filter-robo">
-              <a href="https://github.com/AbhinavB7/Turtlebot-Navigation-using-FollowWaypoint-Navigation-in-ROS2.git"><img src="assets/img/masonry-portfolio/turtlebot.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Turtlebot Navigation using FollowWaypoint Action</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Turtlebot-Navigation-using-FollowWaypoint-Navigation-in-ROS2.git" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perception">
-              <a href="https://github.com/AbhinavB7/Object-Tracking"><img src="assets/img/masonry-portfolio/object_tracking.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Object Tracking</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/Object-Tracking" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo">
-              <a href=""><img src="assets/img/masonry-portfolio/pick_place.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Pick and Place using UR10</h5>
-              <!-- <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perception">
-              <a href=""><img src="assets/img/masonry-portfolio/corner_detect.gif" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Corner Detection using Hough Transform</h5>
-              <!-- <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robo">
-              <a href="https://github.com/AbhinavB7/LQR-LQG-Controllers-for-a-Moving-Crane"><img src="assets/img/masonry-portfolio/lqr.png" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">LQR and LQG Controllers for a Moving Crane</h5>
-              <div class="portfolio-info">
-                <a href="https://github.com/AbhinavB7/LQR-LQG-Controllers-for-a-Moving-Crane" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perception">
-              <a href=""><img src="assets/img/masonry-portfolio/depth_estimation.png" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;">Stereo Vision and Depth Estimation</h5>
-              <!-- <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml">
-              <a href=""><img src="assets/img/masonry-portfolio/" class="img-fluid" alt=""></a>
-              <h5 style="text-align: center;"></h5>
-              <div class="portfolio-info">
-                <a href="" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> -->
-
-          </div><!-- End Portfolio Container -->
-
+        <div class="projects-filters reveal-element">
+          <button class="filter-btn active" data-filter="*">All</button>
+          <button class="filter-btn" data-filter=".filter-robo">Robots</button>
+          <button class="filter-btn" data-filter=".filter-perception">Perception</button>
+          <button class="filter-btn" data-filter=".filter-ml">Machine Learning</button>
+          <button class="filter-btn" data-filter=".filter-plan">Path Planning</button>
         </div>
 
+        <div class="projects-grid isotope-container">
+          
+          <article class="project-card isotope-item filter-perception filter-ml reveal-element">
+            <a href="https://github.com/AbhinavB7/Surface-Reconstruction-from-Noisy-Point-Clouds" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/surface_bunny.png" alt="Surface Reconstruction">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Surface Reconstruction from Noisy Point Clouds using DeepSDF</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-ml filter-plan reveal-element">
+            <a href="https://github.com/sriramprasadkothapalli/Search_and_Rescue_Drone_using_Reinforcement_Learning" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/drone.gif" alt="Search and Rescue Drone">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Search and Rescue Drone Simulation Using RL</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-perception reveal-element">
+            <a href="https://github.com/AbhinavB7/UGV-Surveillance-with-Coordinated-Behavior-Using-Behavior-Trees" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/ugv-sur.gif" alt="UGV Surveillance">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">UGV Surveillance with Coordinated Behavior Using Behavior Trees</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-ml reveal-element">
+            <a href="https://github.com/AbhinavB7/Real_time_Pallet_Detection_and_Ground_Segmentation" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/palet_detection.png" alt="Pallet Detection">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Real-time Pallet Detection and Ground Segmentation</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-plan reveal-element">
+            <a href="https://github.com/AbhinavB7/Autonomous-Parking-System-Using-Model-Based-Decision-Making" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/imaginitive.gif" alt="Autonomous Parking">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Imaginative Autonomous Parking System Using Model-Based Decision Making</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-ml reveal-element">
+            <div class="project-link no-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/AAM.gif" alt="Aerial-Aquatic Manipulator">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Aerial-Aquatic Manipulator in SAILS Using SAC</h3>
+              </div>
+            </div>
+          </article>
+          
+          <article class="project-card isotope-item filter-perception filter-ml reveal-element">
+            <a href="https://github.com/AbhinavB7/Real-Time-Semantic-Segmentation-of-Fire-using-Deep-Learning" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/fire-crop.gif" alt="Fire Segmentation">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Real-Time Fire Segmentation using Deep Learning</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-plan reveal-element">
+            <a href="https://github.com/AbhinavB7/Path-Planning" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/a_star-gif.gif" alt="Path Planning">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Path Planning and Robot Navigation for Obstacle Avoidance</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-perception reveal-element">
+            <a href="https://github.com/AbhinavB7/RoboHarvest" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/roboharvest.png" alt="RoboHarvest">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">RoboHarvest</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo filter-plan reveal-element">
+            <div class="project-link no-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/gazebo_a_star.gif" alt="Turtlebot A*">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Turtlebot A* in Gazebo</h3>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card isotope-item filter-plan filter-robo reveal-element">
+            <a href="https://github.com/AbhinavB7/Turtlebot-Navigation-using-FollowWaypoint-Navigation-in-ROS2.git" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/turtlebot.gif" alt="Turtlebot Navigation">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Turtlebot Navigation using FollowWaypoint Action</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-perception reveal-element">
+            <a href="https://github.com/AbhinavB7/Object-Tracking" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/object_tracking.gif" alt="Object Tracking">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Object Tracking</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-robo reveal-element">
+            <div class="project-link no-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/pick_place.gif" alt="Pick and Place">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Pick and Place using UR10</h3>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card isotope-item filter-perception reveal-element">
+            <div class="project-link no-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/corner_detect.gif" alt="Corner Detection">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Corner Detection using Hough Transform</h3>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card isotope-item filter-robo reveal-element">
+            <a href="https://github.com/AbhinavB7/LQR-LQG-Controllers-for-a-Moving-Crane" target="_blank" rel="noopener" class="project-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/lqr.png" alt="LQR LQG Controllers">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">LQR and LQG Controllers for a Moving Crane</h3>
+                <span class="project-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card isotope-item filter-perception reveal-element">
+            <div class="project-link no-link">
+              <div class="project-image">
+                <img src="assets/img/masonry-portfolio/depth_estimation.png" alt="Stereo Vision">
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Stereo Vision and Depth Estimation</h3>
+              </div>
+            </div>
+          </article>
+
+        </div>
       </div>
+    </section><!-- /Projects Section -->
 
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="extra" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Extra-Curricular</h2>
-        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-      </div><!-- End Section Title -->
-
+    <!-- Creative Section -->
+    <section id="extra" class="creative section">
       <div class="container">
+        <header class="section-header reveal-element">
+          <span class="section-subtitle">Beyond Code</span>
+          <h2 class="section-title">Creative</h2>
+        </header>
 
-        <div class="row gy-4">
-          
-          <div class="col-lg-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <img src="assets/img/pin.jpg" class="img-fluid" alt="Icon" href="https://in.pinterest.com/artistic_ab_/">
-              <a href="https://in.pinterest.com/artistic_ab_/" class="stretched-link">
-                <h3>Pinterest</h3>
-              </a>
-              <p>110K Monthly Viewers</p>
-              <p>Showcasing my talent in Art. Pencil Sketching, Digital Art, Live Art, Watercolor Painting, Micron Sketching.</p>
-            </div>
-          </div><!-- End Service Item -->
+        <div class="creative-grid">
+          <article class="creative-card reveal-element">
+            <a href="https://in.pinterest.com/artistic_ab_/" target="_blank" rel="noopener" class="creative-link">
+              <div class="creative-icon">
+                <img src="assets/img/pin.jpg" alt="Pinterest">
+              </div>
+              <div class="creative-content">
+                <h3 class="creative-title">Pinterest</h3>
+                <p class="creative-stat">110K Monthly Viewers</p>
+                <p class="creative-description">Showcasing my talent in Art. Pencil Sketching, Digital Art, Live Art, Watercolor Painting, Micron Sketching.</p>
+                <span class="creative-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
 
-          <div class="col-lg-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <img src="assets/img/yt.png" class="img-fluid" alt="Icon" href="https://www.youtube.com/c/ArtisticAB">
-              <a href="https://www.youtube.com/c/ArtisticAB" class="stretched-link">
-                <h3>Youtube</h3>
-              </a>
-              <p>1K Subs, 199K Views</p>
-              <p>Using Youtube as a medium to Present my art. Sharing my Creative Process, Tutorials and Fun times with Art.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          
-          
+          <article class="creative-card reveal-element">
+            <a href="https://www.youtube.com/c/ArtisticAB" target="_blank" rel="noopener" class="creative-link">
+              <div class="creative-icon">
+                <img src="assets/img/yt.png" alt="YouTube">
+              </div>
+              <div class="creative-content">
+                <h3 class="creative-title">YouTube</h3>
+                <p class="creative-stat">1K Subscribers · 199K Views</p>
+                <p class="creative-description">Using YouTube as a medium to present my art. Sharing my creative process, tutorials, and fun times with art.</p>
+                <span class="creative-arrow"><i class="bi bi-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </article>
         </div>
-
       </div>
-
-    </section><!-- /Services Section -->
-
+    </section><!-- /Creative Section -->
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer">
     <div class="container">
-      <h4 class="sitename">Abhinav Bhamidipati</h4>
-      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p> -->
-      <div class="social-links d-flex justify-content-center">
-        <a href="mailto:abhinav7@terpmail.umd.edu"><i class="bi bi-envelope"></i></a>
-        <a href="https://github.com/AbhinavB7"><i class="bi bi-github"></i></a>
-        <!-- <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a> -->
-        <a href="https://www.linkedin.com/in/abhinav-bhamidipati/"><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <!-- <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
-        </div> -->
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="footer-content">
+        <h2 class="footer-name">Abhinav Bhamidipati</h2>
+        <p class="footer-tagline">Building the future, one robot at a time.</p>
+        
+        <div class="footer-social">
+          <a href="mailto:abhinav7@terpmail.umd.edu" aria-label="Email">
+            <i class="bi bi-envelope"></i>
+          </a>
+          <a href="https://github.com/AbhinavB7" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abhinav-bhamidipati/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
         </div>
+        
+        <!-- <div class="footer-credits"> -->
+          <!-- <p>Designed with <span class="heart">♥</span> by Abhinav</p> -->
+          <!-- <p class="credits-original">Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></p> -->
+        <!-- </div> -->
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </a>
 
   <!-- Preloader -->
-  <div id="preloader"></div>
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <span class="preloader-line"></span>
+    </div>
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
